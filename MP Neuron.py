@@ -20,10 +20,21 @@ choice = int(input("Enter your choice: "))
 
 if choice == 3:   
     x = int(input("Enter input (0 or 1): "))
+    
+    if x != 0 and x != 1:
+        print("Wrong inputs!\n")
+        x = int(input("Enter input (0 or 1): "))
+        
     inputs = [x]
 else:
     x1 = int(input("Enter X1 (0 or 1): "))
     x2 = int(input("Enter X2 (0 or 1): "))
+    
+    if (x1 != 0 and x1 != 1) or (x2 != 0 and x2 != 1):
+        print("Wrong inputs!\n")
+        x1 = int(input("Enter X1 (0 or 1): "))
+        x2 = int(input("Enter X2 (0 or 1): "))
+        
     inputs = [x1, x2]
 
 
