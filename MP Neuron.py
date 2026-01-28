@@ -26,6 +26,7 @@ if choice == 3:
         x = int(input("Enter input (0 or 1): "))
         
     inputs = [x]
+    
 else:
     x1 = int(input("Enter X1 (0 or 1): "))
     x2 = int(input("Enter X2 (0 or 1): "))
